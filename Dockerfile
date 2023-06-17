@@ -1,7 +1,7 @@
 FROM centos:latest
 
 # Copy the ConfigMap file into the container
-COPY configmap.txt /app/configmap.txt
+COPY config2.conf /app/config2.conf
 
 # Set the working directory
 WORKDIR /app
